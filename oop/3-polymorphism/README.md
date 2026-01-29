@@ -33,7 +33,7 @@ Use polymorphism when:
 
 ## ❓ How is it implemented here?
 
-`PaymentMethod` is an abstract base class
+`PaymentMethodAbstract` is an abstract base class
 
 It defines a common method: `pay(amount)`
 

@@ -1,4 +1,4 @@
-import { ProductBuilder } from './ProductBuilder';
+import { ProductBuilder } from './product.builder';
 
 const product = new ProductBuilder()
   .setTitle('Product A')

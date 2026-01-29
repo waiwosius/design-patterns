@@ -1,4 +1,4 @@
-import { ProductFactory } from './ProductFactory';
+import { ProductFactory } from './product.factory';
 
 const productA = ProductFactory.createProduct(
   'regular',

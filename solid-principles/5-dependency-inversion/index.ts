@@ -1,7 +1,7 @@
-import { Product } from '../1-single-responsibility/Product';
-import { EmailService } from './EmailService';
-import { ProductNewsletter } from './ProductNewsletter';
-import { PushService } from './PushService';
+import { Product } from '../1-single-responsibility/product';
+import { EmailService } from './email-service';
+import { ProductNewsletter } from './product-newsletter';
+import { PushService } from './push-service';
 
 const productA = new Product('Product A', 'Best product in the market', 1500);
 

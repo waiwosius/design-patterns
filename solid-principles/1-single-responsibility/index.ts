@@ -1,5 +1,5 @@
-import { Product } from './Product';
-import { ProductNewsletter } from './ProductNewsletter';
+import { Product } from './product';
+import { ProductNewsletter } from './product-newsletter';
 
 const productA = new Product('Product A', 'A powerful product A', 1500);
 

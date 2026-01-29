@@ -24,7 +24,7 @@ Apply LSP when:
 
 In this example:
 
-- All product types are treated as `ProductDiscount`
+- All product types are treated as `ProductDiscountAbstract`
 - Client code does not need to know the concrete type
 
 ## ❓ What are the pros?

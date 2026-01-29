@@ -1,6 +1,6 @@
-import { PhysicalProduct } from './PhysicalProduct';
-import { DigitalProduct } from './DigitalProduct';
-import { DamagedPhysicalProduct } from './DamagedPhysicalProduct';
+import { PhysicalProduct } from './physical-product';
+import { DigitalProduct } from './digital-product';
+import { DamagedPhysicalProduct } from './damaged-physical-product';
 
 const productA = new PhysicalProduct('Product A', 60);
 const digitalProductA = new DigitalProduct('Digital Product A', 50);

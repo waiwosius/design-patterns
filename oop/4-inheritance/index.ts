@@ -1,5 +1,5 @@
-import { RegularCustomer } from './RegularCustomer';
-import { PremiumCustomer } from './PremiumCustomer';
+import { RegularCustomer } from './regular-customer';
+import { PremiumCustomer } from './premium-customer';
 
 const regularCustomer = new RegularCustomer('Bob');
 const premiumCustomer = new PremiumCustomer('John');

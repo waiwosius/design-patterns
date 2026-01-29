@@ -40,7 +40,7 @@ Both calculate price differently, but are used the same way.
 
 ## ❓ How is it implemented here?
 
-`Product` is an abstract class
+`ProductAbstract` is an abstract class
 
 It defines an abstract method `calculatePrice()`
 

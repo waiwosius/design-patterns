@@ -1,4 +1,4 @@
-import { Product } from './Product';
+import { Product } from './product';
 
 const originalProduct = new Product('Product A', 1500, 'Digital');
 

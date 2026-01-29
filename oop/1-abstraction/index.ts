@@ -1,8 +1,8 @@
-import { Product } from './Product';
-import { RegularProduct } from './RegularProduct';
-import { DiscountedProduct } from './DiscountedProduct';
+import { ProductAbstract } from './product.abstract';
+import { RegularProduct } from './regular-product';
+import { DiscountedProduct } from './discounted-product';
 
-function printPrice(product: Product) {
+function printPrice(product: ProductAbstract) {
   console.log(`${product.getTitle()} price: ${product.calculatePrice()} EUR`);
 }
 

@@ -1,6 +1,6 @@
-import { UIFactory } from './interfaces/UIFactory';
-import { LightThemeFactory } from './light-theme/LightThemeFactory';
-import { DarkThemeFactory } from './dark-theme/DarkThemeFactory';
+import { UIFactory } from './interfaces/ui-factory.interface';
+import { LightThemeFactory } from './light-theme/light-theme.factory';
+import { DarkThemeFactory } from './dark-theme/dark-theme.factory';
 
 function renderUI(factory: UIFactory) {
   const button = factory.createButton();

@@ -1,9 +1,9 @@
-import { ProductDiscount } from './ProductDiscount';
-import { RegularProduct } from './RegularProduct';
-import { DiscountedProduct } from './DiscountedProduct';
-import { DamagedProduct } from './DamagedProduct';
+import { ProductDiscountAbstract } from './product-discount.abstract';
+import { RegularProduct } from './regular-product';
+import { DiscountedProduct } from './discounted-product';
+import { DamagedProduct } from './damaged-product';
 
-function printPrice(product: ProductDiscount) {
+function printPrice(product: ProductDiscountAbstract) {
   console.log(
     `${product.title} -> Original price: ${product.price} EUR, Discount: ${product.calculateDiscount()} EUR, Price after discount: ${product.price - product.calculateDiscount()} EUR`
   );

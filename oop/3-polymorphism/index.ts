@@ -1,9 +1,9 @@
-import { CreditCardPayment } from './CreditCardPayment';
-import { PayPalPayment } from './PayPalPayment';
-import { CryptoPayment } from './CryptoPayment';
+import { CreditCardPayment } from './credit-card-payment';
+import { PaypalPayment } from './paypal-payment';
+import { CryptoPayment } from './crypto-payment';
 
 const creditCard = new CreditCardPayment();
-const payPal = new PayPalPayment();
+const payPal = new PaypalPayment();
 const crypto = new CryptoPayment();
 
 creditCard.pay(10);

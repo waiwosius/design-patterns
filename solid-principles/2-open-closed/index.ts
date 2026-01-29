@@ -1,6 +1,6 @@
-import { RegularCustomer } from './RegularCustomer';
-import { PremiumCustomer } from './PremiumCustomer';
-import { Discount } from './Discount';
+import { RegularCustomer } from './regular-customer';
+import { PremiumCustomer } from './premium-customer';
+import { Discount } from './discount';
 
 const premiumCustomer: PremiumCustomer = new PremiumCustomer();
 const regularCustomer: RegularCustomer = new RegularCustomer();
